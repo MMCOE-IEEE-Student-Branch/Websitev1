@@ -37,6 +37,12 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
 }
 
+.event-img img.img-fluid {
+  width: 360px;
+  height: 470px;
+  object-fit: cover;
+}
+
 .main-page {
   margin-top: 70px;
 }
