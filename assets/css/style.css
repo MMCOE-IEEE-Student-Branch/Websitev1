@@ -31,6 +31,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #0e1b4d;
 }
 
+.Team img.img-fluid {
+  width: 360px;
+  height: 470px;
+  object-fit: cover;
+}
+
 .main-page {
   margin-top: 70px;
 }
@@ -46,6 +52,8 @@ h1, h2, h3, h4, h5, h6 {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
+
+
 
 /* Back to top button */
 .back-to-top {
