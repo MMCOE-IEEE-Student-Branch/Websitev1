@@ -9,7 +9,7 @@
 		<meta content="" name="keywords" />
 
 		<!-- Favicons -->
-		<link href="assets/img/icon.png" rel="icon" />
+		<link href="assets/img/icon.webp" rel="icon" />
 
 		<!-- Google Fonts -->
 		<link
@@ -43,7 +43,7 @@
 			<div class="container">
 				<div id="logo" class="pull-left">
 					<a href="index.html" class="scrollto"
-						><img src="assets/img/IEEE-LOGO.png" alt="" title=""
+						><img src="assets/img/IEEE-LOGO.webp" alt="" title=""
 					/></a>
 				</div>
 
@@ -135,13 +135,13 @@
 					</div>
 
 					<div
-						class="row row-cols-2 row-cols-md-5 justify-content-center align-content-center"
+						class="row row-cols-1 row-cols-md-5 justify-content-center align-content-center"
 					>
 						<div class="col-lg-4 col-md-4">
 							<div class="Team" data-aos="fade-up" data-aos-delay="100">
 								<img
 									src="assets/img/commitee/ShreeyaKamtikar.webp"
-									alt="Speaker 1"
+									alt="Chairperson"
 									class="img-fluid"
 								/>
 								<div class="details">
@@ -157,7 +157,7 @@
 							<div class="Team" data-aos="fade-up" data-aos-delay="200">
 								<img
 									src="assets/img/commitee/TanmayKale.webp"
-									alt="Speaker 2"
+									alt="Vice Chairperson"
 									class="img-fluid"
 								/>
 								<div class="details">
@@ -173,7 +173,7 @@
 							<div class="Team" data-aos="fade-up" data-aos-delay="300">
 								<img
 									src="assets/img/commitee/PrathmeshPatil.webp"
-									alt="Speaker 3"
+									alt="Secretary"
 									class="img-fluid"
 								/>
 								<div class="details">
@@ -189,7 +189,7 @@
 							<div class="Team" data-aos="fade-up" data-aos-delay="100">
 								<img
 									src="assets/img/commitee/RajasiKhadilkar.webp"
-									alt="Speaker 4"
+									alt="Treasurer"
 									class="img-fluid"
 								/>
 								<div class="details">
@@ -205,7 +205,7 @@
 							<div class="Team" data-aos="fade-up" data-aos-delay="200">
 								<img
 									src="assets/img/commitee/IshanMalawade.webp"
-									alt="Speaker 5"
+									alt="Web Master"
 									class="img-fluid"
 								/>
 								<div class="details">
@@ -221,7 +221,7 @@
 							<div class="Team" data-aos="fade-up" data-aos-delay="200">
 								<img
 									src="assets/img/commitee/ShaunakKulkarni.webp"
-									alt="Speaker 5"
+									alt="Event Coordination Head"
 									class="img-fluid"
 								/>
 								<div class="details">
@@ -237,7 +237,7 @@
 							<div class="Team" data-aos="fade-up" data-aos-delay="300">
 								<img
 									src="assets/img/commitee/AdityaPurohit.webp"
-									alt="Speaker 6"
+									alt="Student Advisor"
 									class="img-fluid"
 								/>
 								<div class="details">
@@ -252,8 +252,8 @@
 						<div class="col-lg-4 col-md-4">
 							<div class="Team" data-aos="fade-up" data-aos-delay="300">
 								<img
-									src="assets/img/speakers/counselor.jpg"
-									alt="Speaker 6"
+									src="assets/img/speakers/counselor.webp"
+									alt="Branch Counselor"
 									class="img-fluid"
 								/>
 								<div class="details">
@@ -288,7 +288,7 @@
 							<div class="event">
 								<div class="event-img">
 									<img
-										src="assets/img/event/avinya2k24.jpeg"
+										src="assets/img/event/avinya2k24.webp"
 										alt="event 1"
 										class="img-fluid"
 									/>
@@ -551,9 +551,10 @@
 				</div>
 
 				<div
-					class="owl-carousel gallery-carousel"
+					class="owl-carousel gallery-carousel carousel-resize"
 					data-aos="fade-up"
 					data-aos-delay="100"
+					
 				>
 					<a
 						href="assets/img/gallery/g1.webp"
@@ -640,7 +641,7 @@
 					</div>
 
 					<div class="form">
-						<form name="google-sheet" class="google-sheet">
+						<form name="google-sheet" id="myForm" class="google-sheet">
 							<div id="form_alerts"></div>
 							<div class="form-row">
 								<div class="form-group col-md-6">
@@ -651,7 +652,7 @@
 										id="name"
 										placeholder="Your Name"
 										data-rule="minlen:4"
-										data-msg="Please enter at least 4 chars"
+										data-msg="Please enter at least 4 characters"
 										required
 									/>
 									<div class="validate"></div>
@@ -677,8 +678,8 @@
 									name="subject"
 									id="subject"
 									placeholder="Subject"
-									data-rule="minlen:4"
-									data-msg="Please enter at least 8 chars of subject"
+									data-rule="minlen:5"
+									data-msg="Please enter at least 5 characters of subject"
 									required
 								/>
 								<div class="validate"></div>
@@ -688,6 +689,7 @@
 									class="form-control"
 									name="message"
 									rows="5"
+									id="message"
 									data-rule="required"
 									data-msg="Please write something for us"
 									placeholder="Message"
@@ -695,13 +697,13 @@
 								></textarea>
 								<div class="validate"></div>
 							</div>
-							<div class="mb-3">
+							<!-- <div class="mb-3">
 								<div class="loading">Loading</div>
 								<div class="error-message"></div>
 								<div class="sent-message">
 									Your message has been sent. Thank you!
 								</div>
-							</div>
+							</div> -->
 							<div class="text-center">
 								<button type="submit">Send Message</button>
 							</div>
@@ -720,11 +722,11 @@
 					<div class="row">
 						<div class="col-lg-6 footer-info">
 							<img
-								src="assets/img/IEEE-LOGO.png"
+								src="assets/img/IEEE-LOGO.webp"
 								style="background-color: aliceblue"
 								alt="mmcoe"
 							/>
-							<img src="assets/img/ieee-main.png" alt="TheEvenet" />
+							<img src="assets/img/ieee-main.webp" alt="TheEvenet" />
 							<p>
 								Marathwada Mitra Mandal's College of Engineering inaugurated "IEEE Student Branch" on 23rd May 2020. It organizes various events such as Webinar, Workshops, FDPs, Project Competitions, etc. Students from various colleges enthusiastically participate in events.
 							</p>
@@ -801,5 +803,53 @@
 
 		<!-- Template Main JS File -->
 		<script src="assets/js/main.js"></script>
+
+		<!-- For Email JS -->
+		<script
+		src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"
+	  ></script>
+	  <script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+		crossorigin="anonymous"
+	  ></script>
+	  <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+      ></script>
+
+      <script type="text/javascript">      (function () {
+       
+		emailjs.init('PdSxjzcyN9moz-EFz');
+      })();
+      </script>
+	
+	<script>
+		// listen to the form submission
+		document
+		  .getElementById("myForm")
+		  .addEventListener("submit", function (event) {
+			event.preventDefault();
+  
+			const serviceID = "service_wjxpjpr";
+			const templateID = "template_kvsh9cj";
+  
+			// send the email here
+			emailjs.sendForm(serviceID, templateID, this).then(
+			  (response) => {
+				console.log("SUCCESS!", response.status, response.text);
+				alert("SUCCESS!");
+			  },
+			  (error) => {
+				console.log("FAILED...", error);
+				alert("FAILED...", error);
+			  }
+			);
+		  });
+	  </script>
+  
+
 	</body>
 </html>
